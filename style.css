@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(238,174,202);
+background: -moz-linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eeaeca",endColorstr="#94bbe9",GradientType=1);
+}
+.container{
+    background-color: aliceblue;
+    padding: 30px;
+    border-radius: 15px;
+    height: 350px;
+    width: 300px;
+}
+form{
+    margin: 10px;
+}
+form input,button,select{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+}
+form input{
+    border:2px solid grey;
+    height: 30px;
+    text-align: center;
+    font-size: 15px;
+}
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.text{
+    text-align: center;
+}
+.select-container{
+    padding: 10px;
+    background-color: rgb(94, 209, 106);
+    border-radius: 10px;
+  
+}
+.msg{
+    margin-top: 20px;
+    padding: 7px;
+    font-size: large;
+    background-color: rgb(193, 255, 131);
+    border-radius: 10px;
+    text-align: center;
+}
+.img img{
+    height: 30px;
+    width: 30px;
+
+}
+.button{
+    margin-top: 15px;
+    height: 40px;
+    background-color: rgb(138, 253, 134);
+    font-size: large;
+}

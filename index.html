@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .new-line {
+            clear: both; /* This rule clears both left and right floated elements */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>currency converter</h2>
+        <form>
+            <div class="amount">
+                <p>Enter Amount</p>
+                <input value="100" type="text">
+            </div>
+
+            <div class="dropdown">
+                <div class="from">
+                    <p class="text">FROM</p>
+                    <div class="select-container">
+                        <div class="flag">
+                            <img src="https://flagsapi.com/US/flat/64.png">
+                        </div>
+                        <select name="from">
+                           
+                        </select>
+                    </div>
+                </div>
+
+                <div class="img">
+                    <img src="./images/exchange.png">
+                </div>
+
+                <div class="to">
+                    <p class="text">TO</p>
+                    <div class="select-container">
+                        <div class="flag">
+                            <img src="https://flagsapi.com/IN/flat/64.png">
+                        </div>
+                        <select name="to">
+                            
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="msg-box new-line">
+                <button class="button" type="submit">get exchange rate</button>
+                <div class="msg">1 USD = 80 INR</div>
+            </div>
+        </form>
+    </div>
+    <script src="codes.js"></script>
+    <script src="currency.js"></script>
+</body>
+</html>
